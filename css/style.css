@@ -1,0 +1,237 @@
+* {
+  font-family: "robotoregular";
+}
+
+p {
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.pseudo_body {
+  min-height: 100%;
+  background-image: url(../img/back.webp);
+  background-size: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 40px 0 40px;
+  max-width: 970px;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.horizontal_nav {
+  list-style-type: none;
+  background-color: #dadada;
+  min-height: 80px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 3px 10px #dadada;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.horizontal_nav a {
+  border-radius: 7px;
+  display: flex;
+  border: 1px dashed #000;
+  background-color: #c4c4c4;
+  text-decoration: none;
+  display: flex;
+  height: 35px;
+  min-width: 150px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 19px;
+  color: #040029;
+}
+.horizontal_nav a:hover {
+  color: #d96f00;
+}
+.horizontal_nav div {
+  margin: 7px 10px;
+}
+.horizontal_nav .link_main {
+  pointer-events: none;
+  color: #d96f00;
+}
+
+.card {
+  background-color: #dadada;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 3px 10px #dadada;
+  flex: 1 1 auto;
+  padding: 25px;
+}
+
+.content_card {
+  display: flex;
+  flex-direction: column;
+}
+
+._1_half_of_content {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+._1_half_of_content__txt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  justify-content: space-evenly;
+}
+
+.hello {
+  font-size: 45px;
+  flex-grow: 1;
+  margin-bottom: 33px;
+  margin-top: 13px;
+}
+
+.who_i {
+  font-size: 18px;
+  flex-grow: 1;
+  margin-bottom: 33px;
+}
+
+.my_symbol {
+  max-width: 100%;
+  max-height: 250px;
+  margin: 0 15px;
+}
+
+._2_half_of_content {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.social {
+  background-color: #dadada;
+  margin: 40px 0 0 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 3px 10px #dadada;
+  padding: 25px;
+}
+
+.txt_buttons {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.buttons_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 7px 20px;
+}
+
+.square_button {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.circle_button {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.button1 {
+  background-image: url(../img/youtube.webp);
+}
+
+.button2 {
+  background-image: url(../img/vk.webp);
+}
+
+.buttonsoob {
+  background-image: url(../img/vksoob.webp);
+}
+
+.button3 {
+  background-image: url(../img/discord.webp);
+}
+
+.button4 {
+  background-image: url(../img/telegram.webp);
+}
+
+.button5 {
+  background-image: url(../img/donationalerts.webp);
+}
+
+.button6 {
+  background-image: url(../img/github.webp);
+}
+
+.button7 {
+  background-image: url(../img/gitlab.webp);
+}
+
+.button8 {
+  background-image: url(../img/yandexq.webp);
+}
+
+footer {
+  background-color: #dadada;
+  margin: 40px 0 0 0;
+  box-shadow: 0 0 5px 13px #dadada;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

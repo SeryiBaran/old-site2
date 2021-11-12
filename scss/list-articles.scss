@@ -1,0 +1,129 @@
+* {
+    font-family: "robotoregular";
+}
+
+p {
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.pseudo_body {
+  min-height: 100%;
+  background-image: url(../img/back.webp);
+  background-size: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 0 40px;
+    max-width: 970px;
+    flex: 1 1 auto;
+    width: 100%;
+}
+.horizontal_nav {
+    list-style-type: none;
+    background-color: rgb(218, 218, 218);
+    min-height: 80px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0 0 3px 10px rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    a {
+        border-radius: 7px;
+        display: flex;
+        border: 1px dashed #000;
+        background-color: #c4c4c4;
+        text-decoration: none;
+        display: flex;
+        height: 35px;
+        min-width: 150px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 10px;
+        font-size: 19px;
+        color: #040029;
+    }
+    a:hover {
+        color: #d96f00;
+    }
+    div {
+        margin: 7px 10px;
+    }
+    .link_articles {
+        pointer-events: none;
+        color: #d96f00;
+    }
+}
+.main_unit {
+    background-color: rgb(218, 218, 218);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0 0 3px 10px rgb(218, 218, 218);
+    flex: 1 1 auto;
+    padding: 25px;
+    display: flex;
+}
+.content_main_unit {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 auto;
+}
+.txt_hello {
+    font-size: 30px;
+    text-align: center;
+}
+.articles_list_div {
+    flex: 1 1 auto;
+    margin-top: 30px;
+}
+.articles_list li {
+    margin: 30px 0;
+}
+.articles_list li a {
+    padding-left: 27px;
+    background: url(../img/pensil.webp);
+    background-position: 3px center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: #040029;
+    text-decoration: underline;
+}
+.articles_list li a:hover {
+    color: #d96f00;
+}
+footer {
+    background-color: rgb(218, 218, 218);
+    margin: 40px 0 0 0;
+    box-shadow: 0 0 5px 13px rgb(218, 218, 218);
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
