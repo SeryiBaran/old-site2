@@ -151,8 +151,16 @@ h6 {
 }
 
 .txt_buttons {
-  text-align: center;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txt_buttons__gmail {
+  margin-left: 5px;
+  height: 17px;
 }
 
 .buttons_div {
