@@ -2,7 +2,9 @@
 Сайт-визитка Музыка Ивана
 | Версия/Version       | Рекомендована/Recommended | Доступна/Available                                              |
 | -------------------- | ------------------------- | --------------------------------------------------------------- |
-| v3.7                 | :white_check_mark:        | :white_check_mark:                                              |
+| v3.7.2               | :white_check_mark:        | :white_check_mark:                                              |
+| v3.7.1               | :x:                       | :white_check_mark:                                              |
+| v3.7                 | :x:                       | :white_check_mark:                                              |
 | v3.6.8               | :x:                       | :x:                                                             |
 | v3.6.7               | :x:                       | :x:                                                             |
 | v3.6.6               | :x:                       | :x:                                                             |
