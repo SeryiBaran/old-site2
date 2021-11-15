@@ -156,11 +156,11 @@ h6 {
 }
 .button {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 7px 20px;
+    margin: 7px 15px;
 }
 .square_button {
     border-radius: 10px;
@@ -202,6 +202,9 @@ h6 {
 }
 .button8 {
     background-image: url(../img/yandexq.webp);
+}
+.button9 {
+    background-image: url(../img/stackoverflow.webp);
 }
 footer {
     background-color: rgb(218, 218, 218);
