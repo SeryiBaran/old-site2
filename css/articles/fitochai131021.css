@@ -85,6 +85,11 @@ h6 {
 .horizontal_nav div {
   margin: 7px 10px;
 }
+.horizontal_nav .active {
+  pointer-events: none;
+  color: #c2c2c2;
+  font-size: 23px;
+}
 
 .main_unit {
   background-color: #c7c7c7;
