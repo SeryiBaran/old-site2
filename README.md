@@ -2,15 +2,13 @@
 
 Привет!
 
-Это сайт Музыка Ивана.
+Это сайт Ивана Музыка.
 
-
-<details>
-<summary>👉 Нажми сюда чтобы увидеть версии/Click here to see the versions</summary>
 
 | Версия/Version       | Рекомендована/Recommended | Доступна/Available                                              |
 | -------------------- | ------------------------- | --------------------------------------------------------------- |
-| v3.7.2               | :white_check_mark:        | :white_check_mark:                                              |
+| v3.8                 | :white_check_mark:        | :white_check_mark:                                              |
+| v3.7.2               | :x:                       | :white_check_mark:                                              |
 | v3.7.1               | :x:                       | :white_check_mark:                                              |
 | v3.7                 | :x:                       | :white_check_mark:                                              |
 | v3.6.8               | :x:                       | :white_check_mark:(В другом репозитории/In another repository)  |
@@ -34,5 +32,3 @@
 | v3.0                 | :x:                       | :white_check_mark:(В другом репозитории/In another repository)  |
 | v2.0                 | :x:                       | :white_check_mark:(В другом репозитории/In another repository)  |
 | v1.0                 | :x:                       | :x:                                                             |
-
-</details>
