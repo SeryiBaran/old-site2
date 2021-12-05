@@ -92,13 +92,13 @@ h6 {
   font-size: 23px;
 }
 
-.card {
+.main_unit {
   background-color: #c7c7c7;
   flex: 1 1 auto;
   padding: 25px;
 }
 
-.content_card {
+.content_main_unit {
   display: flex;
   flex-direction: column;
 }
