@@ -81,6 +81,7 @@ h6 {
 }
 .horizontal_nav a:hover {
   font-size: 23px;
+  background-color: #aa3e00;
 }
 .horizontal_nav div {
   margin: 7px 10px;
@@ -139,10 +140,15 @@ h6 {
   justify-content: space-between;
 }
 
+._2_half_of_content p {
+  line-height: 23px;
+  margin-top: 25px;
+}
+
 .social {
   background-color: #c7c7c7;
   margin-top: 5px;
-  padding: 25px;
+  padding: 25px 15px;
 }
 
 .txt_buttons {
@@ -167,24 +173,61 @@ h6 {
   flex-wrap: wrap;
 }
 
+.button_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "noto_sansbold";
+  border: #4d4d4d dashed 1px;
+}
+.button_div span {
+  font-family: inherit;
+}
+
 .button {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7px 6px;
+  text-align: center;
+  border: #4d4d4d dashed 1px;
+  padding: 5px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: #bebebe;
+  min-height: 100%;
+}
+
+.button:hover {
+  text-decoration: underline;
+  background-color: #cecece;
+}
+
+.button_img {
   width: 45px;
   height: 45px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 7px 15px;
 }
 
-.square_button {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+.button span {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: "noto_sansbold";
 }
 
-.circle_button {
+.square_button_img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.circle_button_img {
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
