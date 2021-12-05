@@ -1,3 +1,21 @@
+* {
+  font-family: "noto_sansregular";
+}
+
+p {
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 /*! standard.css v1.0 | MIT License | github.com/SeryiBaran/standard.css */
 /*! Based on normalize.css | github.com/necolas/normalize.css */
 * {
@@ -230,4 +248,108 @@ template {
   display: none;
 }
 
-/*# sourceMappingURL=Standard.css.map */
+.hat {
+  background-image: url("../img/header_hat.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.hat__h1 {
+  color: #fff;
+  margin: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 3px 3px 0px black;
+}
+
+.horizontal_nav {
+  list-style-type: none;
+  background-color: #c7c7c7;
+  min-height: 80px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.horizontal_nav a {
+  border-radius: 7px;
+  display: flex;
+  border: 1px dashed #000;
+  background-color: #863100;
+  text-decoration: none;
+  display: flex;
+  height: 35px;
+  min-width: 150px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 19px;
+  color: white;
+}
+.horizontal_nav a:hover {
+  font-size: 23px;
+  background-color: #aa3e00;
+}
+.horizontal_nav div {
+  margin: 7px 10px;
+}
+.horizontal_nav .active {
+  pointer-events: none;
+  color: #c2c2c2;
+  font-size: 23px;
+}
+
+.hat {
+  transition: background-size 0.5s cubic-bezier(0.37, 0.81, 0.69, 0.99);
+  -webkit-transition: background-size 0.5s cubic-bezier(0.37, 0.81, 0.69, 0.99);
+  -moz-transition: background-size 0.5s cubic-bezier(0.37, 0.81, 0.69, 0.99);
+  -ms-transition: background-size 0.5s cubic-bezier(0.37, 0.81, 0.69, 0.99);
+  -o-transition: background-size 0.5s cubic-bezier(0.37, 0.81, 0.69, 0.99);
+}
+
+@media (max-width: 640px) {
+  .hat {
+    background-size: 150%;
+  }
+}
+@media (max-width: 400px) {
+  .hat {
+    background-size: 250%;
+  }
+}
+footer {
+  background-color: #c7c7c7;
+  margin-top: 5px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.pseudo_body {
+  min-height: 100%;
+  background-image: url(../img/back.webp);
+  background-size: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 990px;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

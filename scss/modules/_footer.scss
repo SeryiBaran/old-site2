@@ -1,0 +1,9 @@
+footer {
+    background-color: $primary-color;
+    margin-top: $margin-components;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
