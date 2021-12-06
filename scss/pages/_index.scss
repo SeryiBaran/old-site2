@@ -1,14 +1,3 @@
-@import "main";
-
-.main_unit {
-    background-color: $primary-color;
-    flex: 1 1 auto;
-    padding: 25px;
-}
-.content_main_unit {
-    display: flex;
-    flex-direction: column;
-}
 ._1_half_of_content {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -125,32 +114,32 @@
     -o-border-radius: 100%;
 }
 .button1 {
-    background-image: url(../img/youtube.webp);
+    background-image: url(img/youtube.webp);
 }
 .button2 {
-    background-image: url(../img/vk.webp);
+    background-image: url(img/vk.webp);
 }
 .buttonsoob {
-    background-image: url(../img/vksoob.webp);
+    background-image: url(img/vksoob.webp);
 }
 .button3 {
-    background-image: url(../img/discord.webp);
+    background-image: url(img/discord.webp);
 }
 .button4 {
-    background-image: url(../img/telegram.webp);
+    background-image: url(img/telegram.webp);
 }
 .button5 {
-    background-image: url(../img/donationalerts.webp);
+    background-image: url(img/donationalerts.webp);
 }
 .button6 {
-    background-image: url(../img/github.webp);
+    background-image: url(img/github.webp);
 }
 .button7 {
-    background-image: url(../img/gitlab.webp);
+    background-image: url(img/gitlab.webp);
 }
 .button8 {
-    background-image: url(../img/yandexq.webp);
+    background-image: url(img/yandexq.webp);
 }
 .button9 {
-    background-image: url(../img/stackoverflow.webp);
+    background-image: url(img/stackoverflow.webp);
 }

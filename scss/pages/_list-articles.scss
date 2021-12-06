@@ -1,13 +1,5 @@
-@import "main";
-
-.main_unit {
-    background-color: $primary-color;
-    flex: 1 1 auto;
-    padding: 25px;
-}
-.content_main_unit {
-    display: flex;
-    flex-direction: column;
+.hat {
+    background-image: url(../img/header_hat.webp);
 }
 .txt_hello {
     font-size: 30px;
