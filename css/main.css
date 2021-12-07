@@ -671,46 +671,6 @@ footer {
   -o-border-radius: 100%;
 }
 
-.button1 {
-  background-image: url(img/youtube.webp);
-}
-
-.button2 {
-  background-image: url(img/vk.webp);
-}
-
-.buttonsoob {
-  background-image: url(img/vksoob.webp);
-}
-
-.button3 {
-  background-image: url(img/discord.webp);
-}
-
-.button4 {
-  background-image: url(img/telegram.webp);
-}
-
-.button5 {
-  background-image: url(img/donationalerts.webp);
-}
-
-.button6 {
-  background-image: url(img/github.webp);
-}
-
-.button7 {
-  background-image: url(img/gitlab.webp);
-}
-
-.button8 {
-  background-image: url(img/yandexq.webp);
-}
-
-.button9 {
-  background-image: url(img/stackoverflow.webp);
-}
-
 .hat {
   background-image: url(../img/header_hat.webp);
 }
