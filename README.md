@@ -4,10 +4,14 @@
 
 Это сайт Ивана Музыка.
 
+## Версии
+<details>
+<summary>Нажми, чтобы увидеть версии</summary>
 
 | Версия/Version       | Рекомендована/Recommended | Доступна/Available                                              |
 | -------------------- | ------------------------- | --------------------------------------------------------------- |
-| v3.9                 | :white_check_mark:        | :white_check_mark:                                              |
+| v3.9.1               | :white_check_mark:        | :white_check_mark:                                              |
+| v3.9                 | :x:                       | :white_check_mark:                                              |
 | v3.8                 | :x:                       | :white_check_mark:                                              |
 | v3.7.2               | :x:                       | :white_check_mark:                                              |
 | v3.7.1               | :x:                       | :white_check_mark:                                              |
@@ -33,3 +37,5 @@
 | v3.0                 | :x:                       | :white_check_mark:(В другом репозитории/In another repository)  |
 | v2.0                 | :x:                       | :white_check_mark:(В другом репозитории/In another repository)  |
 | v1.0                 | :x:                       | :x:                                                             |
+
+</details>
