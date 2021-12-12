@@ -10,7 +10,8 @@
 
 | Версия/Version       | Рекомендована/Recommended | Доступна/Available                                              |
 | -------------------- | ------------------------- | --------------------------------------------------------------- |
-| v3.9.1               | :white_check_mark:        | :white_check_mark:                                              |
+| v3.9.2               | :white_check_mark:        | :white_check_mark:                                              |
+| v3.9.1               | :x:                       | :white_check_mark:                                              |
 | v3.9                 | :x:                       | :white_check_mark:                                              |
 | v3.8                 | :x:                       | :white_check_mark:                                              |
 | v3.7.2               | :x:                       | :white_check_mark:                                              |
