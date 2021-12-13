@@ -84,12 +84,11 @@
     -o-border-radius: 3px;
     background-color: #bebebe;
     min-height: 100%;
+	text-decoration: none;
 }
 .button:hover {
-    text-decoration: underline;
     background-color: #cecece;
 }
-
 .button_img {
     width: 45px;
     height: 45px;

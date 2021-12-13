@@ -6,3 +6,12 @@ p {
     font-size: 18px;
     margin-top: 13px;
 }
+
+a {
+	color: $links-color;
+	text-decoration: none;
+}
+
+a:visited {
+	color: $visited-links-color;
+}
