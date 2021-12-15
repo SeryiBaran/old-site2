@@ -1,22 +1,22 @@
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
 
-@import 'vendors/normalize';
+@import "vendors/normalize";
 
-@import 'vendors-extensions/normalize';
+@import "vendors-extensions/normalize";
 
-@import 'base/typography';
-@import 'base/fonts';
+@import "base/typography";
+@import "base/fonts";
 
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/carcass';
-@import 'layout/navigation';
+@import "layout/header";
+@import "layout/footer";
+@import "layout/carcass";
+@import "layout/navigation";
 
-@import 'components/buttons';
+@import "components/buttons";
 
-@import 'pages/index';
-@import 'pages/list-articles';
-@import 'pages/fitochai131021';
+@import "pages/index";
+@import "pages/list-articles";
+@import "pages/fitochai131021";
